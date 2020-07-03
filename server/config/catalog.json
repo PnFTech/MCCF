@@ -1,0 +1,16 @@
+{
+  "My Favorite Chinese Food": {
+    "fname": "my_favorite_chinese_food.mp4",
+    "fdir": "media",
+    "price": "1.99",
+    "mime": "video/mp4",
+    "upname": "mfcf.mp4"
+  },
+  "Six Weirdest Chinese Food": {
+    "fname": "six_weirdest_chinese_food.m4a",
+    "fdir": "media",
+    "price": "1.99",
+    "mime": "audio/m4a",
+    "upname": "swcf.m4a"
+  }
+}

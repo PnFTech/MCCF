@@ -16,6 +16,10 @@ app_conf.init(app)
 @app.route('/')
 def front_page():
     return flask.render_template('index.html')
+    
+@app.route('/about')
+def about_page():
+    return flask.render_template('about.html')
 
 @app.route('/download//<item>')
 def purchase_dwnldr(item):

@@ -18,7 +18,7 @@
         width: 70%;
         height: 600px;
         padding: 20px;
-        background-image: url('../static/blackboard3.png');
+        background-image: url('static/blackboard3.png');
         background-size: 100% 100%;
         text-align: center;
       }
@@ -42,12 +42,12 @@
       }
 
       #dwnld {
-        color: red;
+        color: white;
         display: inline-block;
         text-decoration: none;
       }
       #about {
-        color: red;
+        color: white;
         display: inline-block;
         text-decoration: none;
       }
@@ -68,12 +68,14 @@
       </h1>
       <div id="site_desc">
         <div class="navili">
-          <a id=dwnld href="http://222.95.144.243:9000/catalog" title="Digital Catalog">
-            <li>Download English lessons</li>
-          </a>
-          <br>
-          <a id=about href="http://222.95.144.243:9000/about" title="About Me">
-            <li>About Me</li>
+          <div class="navili">
+            <a id=dwnld href="/catalog" title="Digital Catalog">
+              <li>Download English lessons</li>
+            </a>
+            <br>
+            <a id=about href="/about" title="About Me">
+              <li>About Me</li>
+            </a>
 
         </div>
       </div>

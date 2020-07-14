@@ -33,12 +33,14 @@
       }
 
       #catalog {
+        height: 370px;
         font-family: "Courier", monospace;
         font-size:16px;
         margin: auto auto;
         padding-bottom:25px;
         text-align: center;
         width:60vmin;
+        overflow: scroll;
       }
 
       .item {
@@ -92,6 +94,9 @@
         display: inline-block;
         text-decoration: none;
       }
+      li {
+        color: white;
+      }
 
 
     </style>
@@ -102,24 +107,19 @@
       <h1>English Lessons</h1>
 
       <div id="catalog">
-          <!--
-          Flask Dynamic HTML: BEGIN
-          Ref: https://flask.palletsprojects.com/en/1.1.x/tutorial/templates/
-          -->
           {%- for name, dwnldlink in downloads.items() %}
           <div class="item">
-            {{ name }}
+
+            <li>{{ name }}
             <span style="float:right;">
               <a class="dwnld" download="" href="{{ dwnldlink }}">
                 download
               </a>
             </span>
+            </li>
           </div>
           {%- endfor %}
-          <!--
-          Flask Dynamic HTML: END
-          NOTE: Remove in production applications
-          -->
+
       </div>
     </div>
   </body>

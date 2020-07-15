@@ -4,34 +4,34 @@
     "fdir": "media",
     "price": "1.99",
     "mime": "video/mp4",
-    "upname": "pcd.mp4"
+    "upname": "popular_chinese_dishes.mschenchen.mp4"
   },
   "Origin of the Days of the Week": {
     "fname": "origin_of_the_days_of_the_week.mp3",
     "fdir": "media",
     "price": "1.99",
     "mime": "audio/mp3",
-    "upname": "oodow.mp3"
+    "upname": "origin_of_the_days.mschenchen.mp3"
   },
   "The Weirdest Chinese Dishes": {
     "fname": "the_weirdest_chinese_dishes.mp3",
     "fdir": "media",
     "price": "1.99",
     "mime": "audio/mp3",
-    "upname": "wcd.mp3"
+    "upname": "the_weirdest_chinese_dishes.mschenchen.mp3"
   },
   "American Idioms": {
     "fname": "american_idioms.mp3",
     "fdir": "media",
     "price": "1.99",
     "mime": "audio/mp3",
-    "upname": "ai.mp3"
+    "upname": "american_idioms.mschenchen.mp3"
   },
   "Order Food in English": {
     "fname": "order_food_in_english.mp3",
     "fdir": "media",
     "price": "1.99",
     "mime": "audio/mp3",
-    "upname": "ofie.mp3"
+    "upname": "order_food_in_english.mschenchen.mp3"
   }
 }

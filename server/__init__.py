@@ -16,7 +16,11 @@ app_conf.init(app)
 @app.route('/')
 def front_page():
     return flask.render_template('index.html')
-    
+
+@app.route('/terms')
+def terms():
+    return flask.render_template('terms.html')
+
 @app.route('/about')
 def about_page():
     return flask.render_template('about.html')

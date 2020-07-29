@@ -46,10 +46,16 @@
         display: inline-block;
         text-decoration: none;
       }
-      #about {
+      #aboutlk {
         color: white;
         display: inline-block;
         text-decoration: none;
+      }
+      #termlk {
+        color: grey;
+        display: inline-block;
+        text-decoration: none;
+        text-align: center;
       }
 
       .navili {
@@ -58,8 +64,15 @@
         line-height: 2;
         text-align: left;
       }
+      .terms {
+        position: absolute;
+	      bottom: 10px;
+        left: 47%;
+        text-align: center;
+      }
     </style>
   </head>
+
   <body>
     <div class="content">
       <br>
@@ -68,17 +81,21 @@
       </h1>
       <div id="site_desc">
         <div class="navili">
-          <div class="navili">
             <a id=dwnld href="/catalog" title="Digital Catalog">
               <li>Download English Lessons</li>
             </a>
             <br>
-            <a id=about href="/about" title="About Me">
+            <a id=aboutlk href="/about" title="About Me">
               <li>About Me</li>
             </a>
-
         </div>
       </div>
+    </div>
+
+    <div class="terms">
+      <a id=termlk href="/terms" title="Terms">
+        Terms of Service
+      </a>
     </div>
   </body>
 </html>
